@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+*{
+    max-width: 1440px;
+    margin: auto;
+    font-family: 'Mulish', sans-serif;
+}
+.navigation{
+    padding: 50px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    text-align: left;
+    display: flex;
+    margin-left: 0;
+}
+.logo-img{
+    padding-right: 8px;
+}
+.logo-text{
+    color:#FF5400;
+}
+.menu{
+    margin-right: 0;
+}
+.nav-menu{
+    display: flex;
+}
+.menu-item{
+    list-style: none;
+    padding: 10px
+}
+.hero{
+    background-image: url(../assets/hero-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.overlay{
+    display: flex; 
+    height: 500px;
+    background-color: #4444445c;
+    border-radius: 16px;
+}
+.content{
+    width: 75%;
+    text-align: center;
+    
+}
+.hero-heading{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.hero-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    padding: 16px;
+}
+.form{
+    display: flex;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+}
+.form-item{
+    color: rgba(19, 19, 24, 0.50);
+    padding: 16px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FFF;
+    width: 100%;
+    margin: 5px;
+    border: none;
+
+}
+.form-btn{
+    color:#fff;
+    padding: 16px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    background-color: #FF5400;
+    width: 100%;
+    margin: 5px;
+    border: none;
+}
+.popular-tour{
+ margin: 100px 0;
+}
+.popular-tour-container{
+    display: flex
+    
+}
+.tour-content{
+    width: 50%;
+}
+.tour-heading{
+    color: #131318;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.tour-text{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    padding: 24px 0;
+}
+.tour-list-item{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    padding: 8px 0;
+}
+.tour-btn{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FF5400;
+    border: navajowhite;
+    padding: 14px 35px;
+}
+.tour-img{
+    width: 50%;
+    text-align: right;
+}
+
+.gallery-content{
+    text-align: center;
+}
+.gallery-row-one{
+    margin-top: 48px;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-colum{
+    width: 100%;
+}
+.grid-img {
+    width: 100%;
+}
