@@ -336,3 +336,255 @@
     justify-items: center;
     align-items: center;
 }
+
+.news-letter{
+        border-radius: 16px;
+        border: 1px solid #FF5400;
+        max-width: 474px;
+        padding: 40px;
+
+}
+.news-letter h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 14px;
+}
+.news-letter p{  
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.hr-border{
+    border: 1px solid rgba(19, 19, 24, 0.10);
+    max-width: 425px;
+    margin-top: 28px;
+    margin-left: 0px;
+}
+.news-letter input{
+    margin-top: 18px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 16px 256px 16px 20px;
+    border: none;
+
+
+}
+.news-letter button{
+    border-radius: 8px;
+    background: #FF5400;
+    margin-top: 24px;
+    padding: 13px 185px 13px 185px;
+    border: none;
+}
+
+.news-photo {
+    background-image: url('../assets/offer-image.png');
+    height: 380px;
+    width: 620px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+}
+
+.offer-box{
+    border-radius: 16px;
+    background-color: #FF5400;
+    padding: 12px;
+    color: #fff;
+    transform: rotate(-19.628deg);
+    margin-right: 15px;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+
+
+.news-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section h3{
+    margin: 0px;
+    padding: 10px;
+
+}
+.footer-section p{
+    margin: 0px;
+    padding: 10px;
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    
+}
+
+.footer-section span{
+    color: #FF5400;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer-logo{
+    margin: 0px;
+    padding: 0px;
+}
+.footer-container{
+    max-width: 399px;
+}
+
+.footer-description{
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 15px; 
+}
+
+.footer-link{
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+.footer-hr{
+    border: 1px solid rgba(19, 19, 24, 0.10);
+    max-width: 80%;
+}
+.cooy-rights{
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 110px;
+}
+.main-footer{
+    display: flex;
+    height: 502px;
+}
+
+.footer-background{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 50px 0;
+    height: 100%;
+    margin-top: 50px;
+}
+.humberger{
+    display: none;
+}
+
+@media screen and (max-width:576px){
+    *{
+        padding: 0 10px;
+    }
+    .nav-menu{
+        display: none;
+    }
+
+    .humberger{
+        display: block;
+    }
+    .hero {
+        height: 520px;
+        padding: 0;
+    }
+    .content {
+        width: 100%;
+        text-align: center;
+    }
+    .hero-heading,.tour-heading,.gallery-heading{
+        font-size: 22px;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .form input{
+        width: 85%;
+
+    }
+
+    .popular-tour-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .tour-img {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .tour-img img{
+        width: 100%;
+    }
+    .gallery-row-one {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .gallery-row-tow {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid-colum-one{
+        grid-column: 1;
+    }
+    .grid-column-2 {
+        grid-column: 1/1;
+    }
+    .gallery-row-three {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .why-choose-us-row-one {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .why-choose-us-row-tow {
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+    }
+    .news-container {
+        flex-direction: column;
+    }
+
+    .news-photo {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .news-letter {
+        max-width: 100%;
+    }
+    .news-letter input{
+        padding: 16px 16px 16px 20px;
+        width: 90%;
+    
+    
+    }
+    .news-letter button{
+        padding: 13px 20px 13px 20px;
+        width: 100%;
+    }
+
+    .footer-background {
+        background: rgba(19, 19, 24, 0.05);
+        padding: 50px 0;
+        height: 100%;
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+}
